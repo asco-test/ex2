@@ -1,0 +1,145 @@
+
+body {
+  font-family: 'Karla', sans-serif;
+  padding: 5%;
+  padding-top: 1%;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/******* CLASS SELECTORS **********/
+.h2_I {
+  color: hsl(71, 73%, 54%);
+}
+
+.text1 {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.8rem;
+  width: 80%;
+}
+
+.bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  position: absolute;
+  padding: 5%;
+  padding-top: 3%;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  top: 45%;
+}
+
+.h2_II {
+  color: white;
+  font-size: 2rem;
+}
+
+.price {
+  position: absolute;
+  margin: 0;
+  top: 26%;
+  color: white;
+  opacity: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.month {
+  position: absolute;
+  top: 25%;
+  left: 23%;
+  color: white;
+  opacity: 60%;
+}
+
+.text2 {
+  position: absolute;
+  top: 37%;
+  color: white;
+  opacity: 80%;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+left: 19%;
+  -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   width: 303px;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 9px;
+   background-color: #C0DF34;
+   -webkit-box-shadow: 4px 6px 19px 0 #000000;
+   -moz-box-shadow: 4px 6px 19px 0 #000000;
+   box-shadow: 4px 6px 19px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_JQJ:hover {
+   background: #C9E258;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-right {
+  background-color: hsl(179, 62%, 43%);
+  opacity: 80%;
+  position: absolute;
+  padding: 5%;
+  padding-top: 3%;
+  right: 0;
+  left: 50%;
+  bottom: 0;
+  top: 45%;
+}
+
+.text3 {
+  color: white;
+  opacity: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1%;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: hsl(71, 73%, 54%);
+}
